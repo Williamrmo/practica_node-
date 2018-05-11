@@ -1,0 +1,84 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: yellow;
+}
+header{
+    background: blue;
+    display: inline-block;
+    width: 100%;
+}
+.center{
+    text-align: center;
+}
+nav{
+    float: left;
+    background: bisque;
+    width: 100%;
+    text-align: center;
+}
+.nav_item{
+    margin: auto;
+    display: inline;
+}
+.nav_item:hover{
+    background: red;
+}
+nav ul li{
+    padding: 1em;
+    float: left;
+}
+nav ul{
+    width: 100px;
+    height: 50px;
+    margin: auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.wrap{
+    width: 500px;
+    height: 500px;
+    background: cadetblue;
+    margin: auto;
+}
+/* shop */
+.main-title {
+    text-align: center;
+}
+
+.hero-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-img:hover .description {
+    top: 0;
+}
+
+.thumbnail {
+    display: block;
+    width: 100%;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    color: white;
+    background: hsla(0, 0%, 20%, .8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    margin: 0;
+    padding: 1em;
+}
+
+.hero {
+    width: 700px;
+    font-size: 14px;
+    text-align: center;
+}
